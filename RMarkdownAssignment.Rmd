@@ -1,5 +1,5 @@
 ---
-  title: 'RMarkdown:  In Class Assignment'
+title: 'RMarkdown:  In Class Assignment'
 author: "Andrew Vo"
 date: "Data 2401"
 output: html_document
@@ -21,15 +21,48 @@ Below the "Your work here" section header, do the following 3 things. To turn th
 
 1. Make a subsection called "Wise words". Put your favorite quote in a block quote. Add a functioning link to a website that provides more information about that quote.
 
-Wise words > 
+## Wise words
+```
+> Start with GOD — the first step in learning is bowing down to GOD; only fools thumb their noses at such wisdom and learning.Proverb 1:7 
+[Proverbs 1:7](https://www.bible.com/bible/97/PRO.1.7.MSG)
+```
+
 
 2. Make a subsection called "My semester". Make a three column table of the current courses you are taking, with separate columns for course number (put those in __bold__), course title (put those in _italics_), and instructor name.
+
+## My Semester
+|**Course Number**| *Course Title* |Instructor Name|
+|:--------------|:---------------|:--------------|
+|**CS2311**|*Data Information and Structures*|John Henderson|
+|**DS2401**|*Data Science*|Katherine Shoemaker|
+
+
 
 3. Lastly, make subsection called "I recommend", and add some information about your favorite author or musician.
 
 + A _subsubheading_ with the name of the artist or author;    
 + An example of their writing or lyrics (formatted in a *plain code block*);   
 + A _list_ of things they have written or performed (remember to use the formatting markup for a list!).     
+
+## I Recommend 
+### "Joji"
+
+```
+The sun is not the brightest thing
+The choir sings
+To an empty world of finer things
+Even though it burns, you drown and sink
+You know I am
+Washing over you
+Washing over you
+```
+### Songs
+
+**- YUKON (Interlude)**
+
+**- Sanctuary**
+
+**- Why Am I Still in LA**
 
 
 Note that you can click "Knit" as you go along to see what the final results are going to look like. **Once you're done, commit the changes and push the repo back to your assignment on GitHub!**
